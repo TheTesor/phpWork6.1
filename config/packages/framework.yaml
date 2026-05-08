@@ -1,0 +1,9 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    handle_all_throwables: true
+
+    session:
+        enabled: false
+
+    php_errors:
+        log: true
